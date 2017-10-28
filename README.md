@@ -2,6 +2,7 @@
 2017 AICHE Hands On Molecular Simulation Workshop
 
 This repository contains 4 directories.
+
 * Q1_structures/
 	+ Q1_numbers/
 		+ Q1_bad_structure.gro
@@ -12,10 +13,20 @@ This repository contains 4 directories.
          	+ Q1_unitcell.png
 
  * physical_validation/
-	+ gmx_waters/ana_waters.py  
-	+ gmx_waters/
+	+ gmx_water/
+	        + ana_waters.py  
+		+ ens_water_md_verlet_settle_pme_be_pr/	
+		+ ens_water_md_verlet_settle_pme_vr_pr/
+		+ ens_water_md_verlet_settle_pme_be/	
+		+ ens_water_md_verlet_settle_pme_vr/	    
+	+ flat_water/
+	        + ana_waters.py  
+		+ ens_water_md_verlet_settle_pme_be_pr/	
+		+ ens_water_md_verlet_settle_pme_vr_pr/
+		+ ens_water_md_verlet_settle_pme_be/	
+		+ ens_water_md_verlet_settle_pme_vr/	                
 
-physical_validation requires cloning https://github.com/shirtsgroup/physical-validation and running `python setup.py. install` in the main repository.
+The scripts in `physical_validation` require cloning https://github.com/shirtsgroup/physical-validation and running `python setup.py. install` in the main repository.
 
   * heat_capacity/
      + calc_cv.py
