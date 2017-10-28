@@ -5,7 +5,7 @@ systems = [
     'ens_water_md_verlet_settle_pme_vr',
     'ens_water_md_verlet_settle_pme_be',
     'ens_water_md_verlet_settle_pme_vr_pr',
-    'ens_water_md_verlet_settle_pme_be_pr',
+    'ens_water_md_verlet_settle_pme_be_pr'
 ]
 
 parser = pv.data.GromacsParser(exe='gmx')
